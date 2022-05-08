@@ -12,3 +12,13 @@
 - also for all tab buttons make backgroud same as background of div
 - for tab clicked make background little dark
 - for content take tab content id from button event and make display block
+
+## Concepts
+### js
+- get all element have a particularly class
+> document.getElementsByClassName('tabcontent')
+- passing data in onClick event in addition to event
+> onclick="openTab(event, 'tab1')
+- changing class and style of an element
+> tabcontents[i].style.display = "none"
+> tablinks[i].className.replace(" active", "")
